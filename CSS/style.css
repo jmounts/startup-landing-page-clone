@@ -55,21 +55,26 @@ div {
 /* Navigation Section */
 .content {
 	padding: 0 15px;
+	margin: 0 auto;
+	width: 925px;
 }
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+	z-index: 9999;
 }
 .top-navigation > .content{
-	width: 925px;
 	height: 70px;
-	margin: 0 auto;
 }
 .top-navigation .links {
 	float: right;
 	font-family: 'Roboto', sans-serif;
 	color: #838994;
 	font-size: 16px;
-	margin-top: 25px;
+	margin-top: 35px;
+	padding-right: 25px;
 	-webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
@@ -87,4 +92,50 @@ div {
 .top-navigation .logo {
 	height: 70px;
 	margin-left: 25px;
+}
+a {
+	text-decoration: none;	color: #838994;
+}
+/* INTRODUCTION SECTION */
+.intro {
+	background-image: url('../images/first-background copy.jpg');
+	background-position: 0 bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 575px;
+	overflow: auto;
+}
+.intro h1, h3{
+	text-align: center;
+	color: #fff;
+	font-weight: lighter;
+	font-family: 'Roboto', sans-serif;
+}
+.intro h1 {
+	margin-top: 275px;
+	font-size: 45px;
+	letter-spacing: 2px;
+}
+.intro h3 {
+	margin-top: 20px;
+	font-size: 25px;
+}
+.buttons {
+	margin: 15px auto;
+}
+button {
+	height: 50px;
+	width: 150px;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	color: white;
+	font-size: 18px;
+}
+button:hover {
+	background-color: #d94003;
+	border-color: #cf3d0e;
+	cursor: pointer;
 }
