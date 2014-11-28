@@ -121,7 +121,7 @@ a {
 	font-size: 25px;
 }
 .buttons {
-	margin: 15px auto;
+	margin: 25px auto;
 }
 button {
 	height: 50px;
@@ -133,9 +133,28 @@ button {
 	border-radius: 4px;
 	color: white;
 	font-size: 18px;
+	display: block;
+	margin: 0 auto;
 }
 button:hover {
 	background-color: #d94003;
 	border-color: #cf3d0e;
 	cursor: pointer;
+}
+/*CASES SECTION*/
+.cases {
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px;
+	color: black;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	text-align: center;
+	padding-top: 150px;
+}
+.cases .devices {
+	width: 33.33333333%;
+	display: inline-block;
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
 }
