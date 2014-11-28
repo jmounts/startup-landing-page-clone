@@ -143,18 +143,31 @@ button:hover {
 }
 /*CASES SECTION*/
 .cases {
-	font-family: 'Roboto', sans-serif;
-	font-size: 32px;
-	color: black;
-	letter-spacing: 2px;
-	font-weight: lighter;
-	text-align: center;
-	padding-top: 150px;
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5px;
 }
-.cases .devices {
-	width: 33.33333333%;
-	display: inline-block;
-	border: 1px solid black;
-	box-sizing: border-box;
-	height: 4em;
+.cases .content {
+    margin-top: 7px;
+    padding: none;
+    color: black;
+    text-align: center;
+}
+.cases h2 {
+    font-size: 40px;
+    margin: 100px 0 50px;
+    font-weight: lighter;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.cases .devices > li {
+    width: 33.3333333%;
+    float:left;
+}
+.cases .devices h3 {
+	font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 23px;
+    margin: 10px 0 50px;
+    color: black;
 }
